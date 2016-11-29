@@ -8,10 +8,13 @@ using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
-    [ServiceContract]
+  //  [ServiceContract]
     public interface ITest : IService
     {
-        [OperationContract]
+   //     [OperationContract]
         Task<byte[]> GetBlob(int size);
+
+ //       [OperationContract]
+        Task<string> GetMessage();
     }
 }

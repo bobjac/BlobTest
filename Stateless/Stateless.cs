@@ -61,12 +61,15 @@ namespace Stateless
                 Uri uri = new Uri("fabric:/BlobTest/Stateful");
                 ITest blobService = ServiceProxy.Create<ITest>(uri, new ServicePartitionKey(0));
 
+                string message = await blobService.GetMessage();
+
                 byte[] blob = await blobService.GetBlob(size);
                 return blob.Length;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 Debug.WriteLine("Exception caught.");
+                Debug.WriteLine(ex.Message);
                 return -1;
             }
         }

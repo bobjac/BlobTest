@@ -1,0 +1,1 @@
+C:\Users\bobjac\Desktop\GitHub\BlobTest\BlobTest\obj\x64\Release\BlobTest.sfprojResolveAssemblyReference.cache

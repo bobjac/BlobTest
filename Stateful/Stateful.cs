@@ -29,6 +29,11 @@ namespace Stateful
             return Task.FromResult(blob);
         }
 
+        public Task<string> GetMessage()
+        {
+            return Task.FromResult<string>("Test Message");
+        }
+
         private readonly Random _rand = new Random(Environment.TickCount);
 
         /// <summary>

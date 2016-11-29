@@ -1,0 +1,16 @@
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\ClassLibrary.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\ClassLibrary.pdb
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Data.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Internal.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Internal.Strings.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Services.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\ServiceFabricServiceModel.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\System.Fabric.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\System.Fabric.Strings.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Data.xml
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Data.Interfaces.xml
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\Microsoft.ServiceFabric.Services.xml
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\bin\x64\Debug\System.Fabric.xml
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\obj\x64\Debug\ClassLibrary.dll
+C:\Users\bobjac\Desktop\GitHub\BlobTest\ClassLibrary\obj\x64\Debug\ClassLibrary.pdb
