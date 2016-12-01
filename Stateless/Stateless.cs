@@ -46,9 +46,17 @@ namespace Stateless
             {
                 cancellationToken.ThrowIfCancellationRequested();
 
-                ServiceEventSource.Current.ServiceMessage(this, "Working-{0}", ++iterations);
-
-                await Work(iterations * 1024);
+                int sizeKB = ++iterations * 256;
+                Task<int> task = Work(sizeKB * 1024);
+                if (!task.Wait(30000))
+                {
+                    ServiceEventSource.Current.ServiceMessage(this, "CALL TIMED OUT for {0} KB", sizeKB);
+                }
+                else
+                {
+                    int blobLength = task.Result;
+                    ServiceEventSource.Current.ServiceMessage(this, "Blob Length-{0}", blobLength);
+                }
 
                 await Task.Delay(TimeSpan.FromSeconds(1), cancellationToken);
             }
